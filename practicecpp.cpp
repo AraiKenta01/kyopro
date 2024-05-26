@@ -27,6 +27,8 @@ int chk(int x, int ff){
 		q[tt].r = l; 
 		if(l < n) q[++tt] = {l + 1, n, i};
 	}
+
+    //aaaaaaaa
 	int id = 0, mn = 1e18;
 	for(int i = 1; i <= n; i++)
 		if(mn > dp[i] + calc(i, n + 1))
